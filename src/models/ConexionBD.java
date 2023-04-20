@@ -20,7 +20,7 @@ public class ConexionBD {
     
     public Connection getConexion(){
         
-        String bd =  "jdbc:mysql://localhost:3306/hotelDemo?serverTimezone=UTC";
+        String bd =  "jdbc:mysql://localhost:3306/hotelalura?serverTimezone=UTC";
         String user = "root";
         String pass = "";
         
