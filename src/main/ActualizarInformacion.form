@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="iconImage" type="java.awt.Image" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection component="Form" name="iconImage" type="property"/>
+    </Property>
+    <Property name="undecorated" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/img/banner_img.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="label_title" min="-2" pref="300" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="label_Error" min="-2" pref="210" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="label_Nombre" min="-2" pref="89" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+                                  <Component id="label_apellidos" min="-2" pref="89" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txt_nombreReservacion" alignment="0" min="-2" pref="230" max="-2" attributes="0"/>
+                                      <Component id="label_fechaNacimiento" alignment="0" min="-2" pref="131" max="-2" attributes="0"/>
+                                      <Component id="date_fechaNacimiento" alignment="0" min="-2" pref="185" max="-2" attributes="0"/>
+                                      <Component id="label_nacionalidad" alignment="0" min="-2" pref="131" max="-2" attributes="0"/>
+                                      <Component id="label_telefono" alignment="0" min="-2" pref="131" max="-2" attributes="0"/>
+                                      <Component id="txt_habitacion" alignment="0" min="-2" pref="143" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txt_apellidoReservacion1" min="-2" pref="230" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="label_fechaIn_Reservacion" min="-2" pref="131" max="-2" attributes="0"/>
+                                                  <Component id="date_fechaCheckIn" pref="185" max="32767" attributes="0"/>
+                                                  <Component id="label_fechaOut_reservacion" min="-2" pref="131" max="-2" attributes="0"/>
+                                                  <Component id="date_fechaCheckOut" max="32767" attributes="0"/>
+                                                  <Component id="label_medioPagoRservacion" min="-2" pref="131" max="-2" attributes="0"/>
+                                                  <Component id="cmb_MedioPagoR" min="-2" pref="170" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="txt_costoTotal_Reservacion" min="-2" pref="99" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="txt_telefono" alignment="0" max="32767" attributes="0"/>
+                              <Component id="cmb_nacionalidad" alignment="0" min="-2" pref="220" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          <Component id="btn_Cancelar" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btn_guardarR" min="-2" pref="149" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="label_title" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="label_Error" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="label_Nombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="label_apellidos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="txt_nombreReservacion" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="txt_apellidoReservacion1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="label_fechaNacimiento" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="date_fechaNacimiento" min="-2" pref="40" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="label_nacionalidad" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cmb_nacionalidad" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="label_telefono" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txt_telefono" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="label_fechaIn_Reservacion" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                          <Component id="date_fechaCheckIn" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="label_fechaOut_reservacion" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                          <Component id="date_fechaCheckOut" min="-2" pref="40" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="label_medioPagoRservacion" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                          <Component id="cmb_MedioPagoR" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="txt_costoTotal_Reservacion" min="-2" pref="38" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="btn_Cancelar" max="32767" attributes="0"/>
+                              <Component id="btn_guardarR" pref="54" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="txt_habitacion" min="-2" pref="74" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="49" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="label_title">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Comic Sans MS" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="6" green="6" red="46" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="INFORMACI&#xd3;N DEL HUESPED:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="label_Nombre">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft New Tai Lue" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nombre(s):"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_nombreReservacion">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Roboto Medium" size="14" style="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="Nombre de usuario"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0">
+                  <Color PropertyName="color" blue="33" green="0" red="0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="label_apellidos">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft New Tai Lue" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Apellidos:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_apellidoReservacion1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Roboto Medium" size="14" style="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="Apellido de usuario"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0">
+                  <Color PropertyName="color" blue="33" green="0" red="0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="label_fechaNacimiento">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft New Tai Lue" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fecha de nacimiento:"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="date_fechaNacimiento">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="d9" green="d9" red="d9" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="label_nacionalidad">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft New Tai Lue" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nacionalidad:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cmb_nacionalidad">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="d9" green="d9" red="d9" type="rgb"/>
+            </Property>
+            <Property name="editable" type="boolean" value="true"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="SansSerif" size="14" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="202">
+                <StringItem index="0" value="afgano"/>
+                <StringItem index="1" value="alban&#xe9;s"/>
+                <StringItem index="2" value="Argelino"/>
+                <StringItem index="3" value="Andorrano"/>
+                <StringItem index="4" value="Angola"/>
+                <StringItem index="5" value="Antigua o Barbudan"/>
+                <StringItem index="6" value="Argentina"/>
+                <StringItem index="7" value="armenio"/>
+                <StringItem index="8" value="Australiano"/>
+                <StringItem index="9" value="austriaco"/>
+                <StringItem index="10" value="Azerbaiyano, azer&#xed;"/>
+                <StringItem index="11" value="Bahame&#xf1;o"/>
+                <StringItem index="12" value="Bahrein"/>
+                <StringItem index="13" value="bengal&#xed;"/>
+                <StringItem index="14" value="Barbados"/>
+                <StringItem index="15" value="Bielorruso"/>
+                <StringItem index="16" value="Belga"/>
+                <StringItem index="17" value="Belice&#xf1;o"/>
+                <StringItem index="18" value="Benin&#xe9;s, Beninois"/>
+                <StringItem index="19" value="Butan&#xe9;s"/>
+                <StringItem index="20" value="boliviano"/>
+                <StringItem index="21" value="Bosnio o herzegovinio"/>
+                <StringItem index="22" value="Motswana, Botswana"/>
+                <StringItem index="23" value="brasile&#xf1;o"/>
+                <StringItem index="24" value="Brunei&#xe1;n"/>
+                <StringItem index="25" value="Bulgarian"/>
+                <StringItem index="26" value="Burkinab&#xe9;"/>
+                <StringItem index="27" value="birmano"/>
+                <StringItem index="28" value="Burundiano"/>
+                <StringItem index="29" value="Cabo Verde"/>
+                <StringItem index="30" value="Camboyano"/>
+                <StringItem index="31" value="camerun&#xe9;s"/>
+                <StringItem index="32" value="canadiense"/>
+                <StringItem index="33" value="Centroafricano"/>
+                <StringItem index="34" value="Chadiano"/>
+                <StringItem index="35" value="Chileno"/>
+                <StringItem index="36" value="Chino"/>
+                <StringItem index="37" value="colombianas"/>
+                <StringItem index="38" value="Comoras, comorenses"/>
+                <StringItem index="39" value="congole&#xf1;a"/>
+                <StringItem index="40" value="congole&#xf1;a"/>
+                <StringItem index="41" value="Costa Rica"/>
+                <StringItem index="42" value="Marfile&#xf1;o"/>
+                <StringItem index="43" value="croata"/>
+                <StringItem index="44" value="Cubano"/>
+                <StringItem index="45" value="Chipriota"/>
+                <StringItem index="46" value="Checo"/>
+                <StringItem index="47" value="dan&#xe9;s"/>
+                <StringItem index="48" value="Djibouti"/>
+                <StringItem index="49" value="Dominicanas"/>
+                <StringItem index="50" value="Dominicanas"/>
+                <StringItem index="51" value="Timorense"/>
+                <StringItem index="52" value="ecuatoriano"/>
+                <StringItem index="53" value="Egipcio"/>
+                <StringItem index="54" value="salvadore&#xf1;o"/>
+                <StringItem index="55" value="Ecuatoguineano, ecuatoguineano"/>
+                <StringItem index="56" value="Eritreo"/>
+                <StringItem index="57" value="Estonia"/>
+                <StringItem index="58" value="et&#xed;ope"/>
+                <StringItem index="59" value="Fijian"/>
+                <StringItem index="60" value="Finnish"/>
+                <StringItem index="61" value="Franc&#xe9;s"/>
+                <StringItem index="62" value="Gabon&#xe9;s"/>
+                <StringItem index="63" value="Gambiano"/>
+                <StringItem index="64" value="georgiano"/>
+                <StringItem index="65" value="Alem&#xe1;n"/>
+                <StringItem index="66" value="ghan&#xe9;s"/>
+                <StringItem index="67" value="Gibraltar"/>
+                <StringItem index="68" value="Griego, hel&#xe9;nico"/>
+                <StringItem index="69" value="Granada"/>
+                <StringItem index="70" value="guatemalteco"/>
+                <StringItem index="71" value="Guineano"/>
+                <StringItem index="72" value="Bissau-Guineano"/>
+                <StringItem index="73" value="Guyana"/>
+                <StringItem index="74" value="danza del &#xc1;frica Occidental, danza afro haitiana,"/>
+                <StringItem index="75" value="hondure&#xf1;a"/>
+                <StringItem index="76" value="H&#xfa;ngaro, Magyar"/>
+                <StringItem index="77" value="island&#xe9;s"/>
+                <StringItem index="78" value="indio"/>
+                <StringItem index="79" value="Indonesian"/>
+                <StringItem index="80" value="Iran&#xed;, persa"/>
+                <StringItem index="81" value="iraqu&#xed;"/>
+                <StringItem index="82" value="irland&#xe9;s"/>
+                <StringItem index="83" value="israel&#xed;"/>
+                <StringItem index="84" value="Italiano"/>
+                <StringItem index="85" value="Marfile&#xf1;o"/>
+                <StringItem index="86" value="jamaicano"/>
+                <StringItem index="87" value="Japon&#xe9;s"/>
+                <StringItem index="88" value="Jordano"/>
+                <StringItem index="89" value="Kazajo, kazajo"/>
+                <StringItem index="90" value="Keniano"/>
+                <StringItem index="91" value="I-Kiribati"/>
+                <StringItem index="92" value="Norcoreano"/>
+                <StringItem index="93" value="Surcoreano"/>
+                <StringItem index="94" value="Kuwait&#xed;"/>
+                <StringItem index="95" value="Kirguist&#xe1;n, Kirguist&#xe1;n, Kirgiz, Kirguizist&#xe1;n"/>
+                <StringItem index="96" value="Lao, laosiano"/>
+                <StringItem index="97" value="Let&#xf3;n, Lettish"/>
+                <StringItem index="98" value="liban&#xe9;s"/>
+                <StringItem index="99" value="Basotho"/>
+                <StringItem index="100" value="Liberiano"/>
+                <StringItem index="101" value="Libio"/>
+                <StringItem index="102" value="Liechtenstein"/>
+                <StringItem index="103" value="lituano"/>
+                <StringItem index="104" value="Luxemburgo, luxemburgu&#xe9;s"/>
+                <StringItem index="105" value="macedonio"/>
+                <StringItem index="106" value="madagascar&#xed;"/>
+                <StringItem index="107" value="Malawiano"/>
+                <StringItem index="108" value="Malasio"/>
+                <StringItem index="109" value="Maldivas"/>
+                <StringItem index="110" value="Maliense, Malin&#xe9;s"/>
+                <StringItem index="111" value="malt&#xe9;s"/>
+                <StringItem index="112" value="Islas Marshall"/>
+                <StringItem index="113" value="Martiniquais, Martinica"/>
+                <StringItem index="114" value="mauritano"/>
+                <StringItem index="115" value="mauriciano"/>
+                <StringItem index="116" value="Mexicano"/>
+                <StringItem index="117" value="Micronesia"/>
+                <StringItem index="118" value="Moldavo"/>
+                <StringItem index="119" value="Mon&#xe9;gasque, Monacan"/>
+                <StringItem index="120" value="mongol"/>
+                <StringItem index="121" value="montenegrino"/>
+                <StringItem index="122" value="marroqu&#xed;"/>
+                <StringItem index="123" value="mozambique&#xf1;o"/>
+                <StringItem index="124" value="namibio"/>
+                <StringItem index="125" value="nauruana"/>
+                <StringItem index="126" value="Nepal&#xed;, nepal&#xed;"/>
+                <StringItem index="127" value="Holand&#xe9;s, neerland&#xe9;s"/>
+                <StringItem index="128" value="Nueva Zelanda, Nueva Zelanda, Zelanian"/>
+                <StringItem index="129" value="nicarag&#xfc;ense"/>
+                <StringItem index="130" value="Nigeriano"/>
+                <StringItem index="131" value="Nigeriano"/>
+                <StringItem index="132" value="Marianan del norte"/>
+                <StringItem index="133" value="Norwegian"/>
+                <StringItem index="134" value="oman&#xed;"/>
+                <StringItem index="135" value="Paquistan&#xed;"/>
+                <StringItem index="136" value="Palauan"/>
+                <StringItem index="137" value="palestino"/>
+                <StringItem index="138" value="paname&#xf1;o"/>
+                <StringItem index="139" value="Papua Nueva Guinea, Papuan"/>
+                <StringItem index="140" value="paraguayo"/>
+                <StringItem index="141" value="peruano"/>
+                <StringItem index="142" value="Filipino, filipino"/>
+                <StringItem index="143" value="polaco"/>
+                <StringItem index="144" value="Portuguese"/>
+                <StringItem index="145" value="puertorrique&#xf1;o"/>
+                <StringItem index="146" value="Qatar"/>
+                <StringItem index="147" value="rumano"/>
+                <StringItem index="148" value="Ruso"/>
+                <StringItem index="149" value="Ruand&#xe9;s"/>
+                <StringItem index="150" value="Kittitian o Nevisian"/>
+                <StringItem index="151" value="Saint Lucian"/>
+                <StringItem index="152" value="San Vicente, Vicentino"/>
+                <StringItem index="153" value="Samoano"/>
+                <StringItem index="154" value="Sammarinese"/>
+                <StringItem index="155" value="S&#xe3;o Tom&#xe9;an"/>
+                <StringItem index="156" value="Arabia Saudita, Arabia Saudita"/>
+                <StringItem index="157" value="Senegal"/>
+                <StringItem index="158" value="serbio"/>
+                <StringItem index="159" value="Seychelles"/>
+                <StringItem index="160" value="Sierra Leona"/>
+                <StringItem index="161" value="Singapur, Singapur"/>
+                <StringItem index="162" value="Slovak"/>
+                <StringItem index="163" value="Esloveno, esloveno"/>
+                <StringItem index="164" value="Solomon Island"/>
+                <StringItem index="165" value="somal&#xed;"/>
+                <StringItem index="166" value="sudafricano"/>
+                <StringItem index="167" value="Sud&#xe1;n del sur"/>
+                <StringItem index="168" value="Espa&#xf1;ol"/>
+                <StringItem index="169" value="de Sri Lanka"/>
+                <StringItem index="170" value="sudan&#xe9;s"/>
+                <StringItem index="171" value="surinam&#xe9;s"/>
+                <StringItem index="172" value="Swazi"/>
+                <StringItem index="173" value="Swedish"/>
+                <StringItem index="174" value="suizo"/>
+                <StringItem index="175" value="Sirio"/>
+                <StringItem index="176" value="Tajikistani"/>
+                <StringItem index="177" value="Tanzania"/>
+                <StringItem index="178" value="Thai"/>
+                <StringItem index="179" value="Timorense"/>
+                <StringItem index="180" value="Togol&#xe9;s"/>
+                <StringItem index="181" value="Tokelauan"/>
+                <StringItem index="182" value="Tonga"/>
+                <StringItem index="183" value="Trinidad y Tobago"/>
+                <StringItem index="184" value="tunecino"/>
+                <StringItem index="185" value="turco"/>
+                <StringItem index="186" value="Turkmenist&#xe1;n"/>
+                <StringItem index="187" value="tuvaluano"/>
+                <StringItem index="188" value="Uganda"/>
+                <StringItem index="189" value="ucranio"/>
+                <StringItem index="190" value="Emirati, Emirian, Emiri"/>
+                <StringItem index="191" value="Reino Unido, Brit&#xe1;nico"/>
+                <StringItem index="192" value="Estados Unidos, EE. UU., Estadounidense"/>
+                <StringItem index="193" value="uruguayo"/>
+                <StringItem index="194" value="Uzbeko, uzbeko"/>
+                <StringItem index="195" value="Ni-Vanuatu, Vanuatu&#xe1;n"/>
+                <StringItem index="196" value="Vaticano"/>
+                <StringItem index="197" value="venezolano"/>
+                <StringItem index="198" value="vietnamita"/>
+                <StringItem index="199" value="yemenita"/>
+                <StringItem index="200" value="Zambia"/>
+                <StringItem index="201" value="zimbabuo"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="Sistema_cmb_nacionalidad"/>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="label_telefono">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft New Tai Lue" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Telefono:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_telefono">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Roboto Medium" size="14" style="0"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="text" type="java.lang.String" value="000-000-000"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder bottom="1" left="0" right="0" top="0">
+                  <Color PropertyName="color" blue="33" green="0" red="0" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_habitacion">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Roboto Black" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="cc" red="66" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="000"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Habitacion">
+                  <Font PropertyName="font" name="Roboto Medium" size="12" style="0"/>
+                  <Color PropertyName="color" blue="0" green="33" red="99" type="rgb"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="label_fechaIn_Reservacion">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft New Tai Lue" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fecha de check-in:"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="date_fechaCheckIn">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="d9" green="d9" red="d9" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="ff" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="label_fechaOut_reservacion">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft New Tai Lue" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fecha de check-in:"/>
+          </Properties>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="date_fechaCheckOut">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="d9" green="d9" red="d9" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder/>
+              </Border>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="ff" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="propertyChange" listener="java.beans.PropertyChangeListener" parameters="java.beans.PropertyChangeEvent" handler="date_fechaCheckOutPropertyChange"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="label_medioPagoRservacion">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Microsoft New Tai Lue" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Medio de pago:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cmb_MedioPagoR">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="d9" green="d9" red="d9" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="Efectivo"/>
+                <StringItem index="1" value="Tarjeta de credito"/>
+                <StringItem index="2" value="Tarjeta de debito"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="label_Error">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/img/danger 1.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xa1;Rellene todos los campos!"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btn_guardarR">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="99" red="0" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Roboto Black" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/img/disquete.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Actualizar"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+                <BevelBorder>
+                  <Color PropertyName="highlightInner" blue="0" green="cc" red="66" type="rgb"/>
+                </BevelBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_guardarRActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txt_costoTotal_Reservacion">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Roboto Medium" size="12" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" value="$ 0.00"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Total: ">
+                  <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                    <MatteColorBorder/>
+                  </Border>
+                  <Font PropertyName="font" name="Roboto Medium" size="12" style="0"/>
+                  <Color PropertyName="color" blue="0" green="0" red="cc" type="rgb"/>
+                </TitledBorder>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btn_Cancelar">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="33" red="99" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Roboto Medium" size="14" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cancelar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_CancelarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
