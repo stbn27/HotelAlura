@@ -141,7 +141,7 @@ El otro apartado es agregar un nuevo usuario el cual puede ser `Administrador` o
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 ---
-> :star: ¡¡Ayudame con una estrilla!!
+> :star: ¡¡Ayudame con una estrellita!!
 
 ![MadeIn](https://img.shields.io/badge/Made%20with-Java-1f425f.svg)
 
