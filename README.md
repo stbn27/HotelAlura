@@ -147,6 +147,6 @@ El otro apartado es agregar un nuevo usuario el cual puede ser `Administrador` o
 ![Licencia](https://img.shields.io/github/license/{stbn27}/{HotelAlura}.svg)
 
 **Autor**
-Autor: Jose Julian Esteban
+Autor: Jose Julian Esteban |
 @Autor stbn27
 ![Autor](https://img.shields.io/github/realese/{stbn27}/{HotelAlura}.svg)
