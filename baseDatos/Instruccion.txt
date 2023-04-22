@@ -1,0 +1,1 @@
+Este base de datos fue elaborado con Xampp, por lo cual se puede importar con gran facilidad; o bien importarla a MySQL Workbench sin nigun problema.
