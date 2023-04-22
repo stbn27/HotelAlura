@@ -10,7 +10,7 @@
 ![Hotel Alura](/img-Proyect/logo.png)
 # Hotel Alura  :star:
 ---
-## Este proyecto  forma parte del curso de **Oracle Next Education** impartido en la plataforma de ** Alura Latam**.
+## Este proyecto  forma parte del curso de **Oracle Next Education** impartido en la plataforma de **Alura Latam**.
  Este proyecto consiste en un programa que se encargue de gestionar  un hotel  :hotel: (**Hotel Alura**). Los empleados podran hacer el registro de los huespedes. Para el desarrollo de este proyecto se siguio la metodología MVC y algunas bibliotecas de terceros, el programa esta elaborado en lenguaje **Java** :coffee: para toda la interfaz  y **MySQL** para la base de datos.
 ### Componentes:  :pencil:
 - :one: Vista de inicio de sesión.
