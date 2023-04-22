@@ -123,7 +123,7 @@ El otro apartado es agregar un nuevo usuario el cual puede ser `Administrador` o
 
 ---
 ![Alura](/img-Proyect/Alura.svg "Alura Latam") 
-[![oracle](/img-proyect/oracle.svg "Orancle sitio Oficial")](https://orancle.com)
+[![Orancle](https://img.shields.io/badge/Oracle-%23CD5C5C.svg?logo=Oracle&logoColor=white)](https://oracle.com/stbn27) 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white "Java")
 ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white "MySQL")
 
