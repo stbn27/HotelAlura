@@ -143,6 +143,11 @@ public class Login extends javax.swing.JFrame {
         txt_user.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         txt_user.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(204, 204, 204)));
         txt_user.setMargin(new java.awt.Insets(2, 20, 2, 6));
+        txt_user.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                txt_userMouseClicked(evt);
+            }
+        });
         jPanel2.add(txt_user, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, 250, 30));
 
         txt_pass.setBackground(new java.awt.Color(5, 25, 51));
@@ -150,6 +155,11 @@ public class Login extends javax.swing.JFrame {
         txt_pass.setForeground(new java.awt.Color(255, 255, 255));
         txt_pass.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         txt_pass.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(204, 204, 204)));
+        txt_pass.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                txt_passMouseClicked(evt);
+            }
+        });
         jPanel2.add(txt_pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 250, 30));
 
         btn_inicioSesion.setFont(new java.awt.Font("Rockwell", 1, 14)); // NOI18N
@@ -175,6 +185,16 @@ public class Login extends javax.swing.JFrame {
     private void btn_inicioSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_inicioSesionActionPerformed
         validar();
     }//GEN-LAST:event_btn_inicioSesionActionPerformed
+
+    private void txt_userMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txt_userMouseClicked
+        label_Camposvacios.setVisible(false);
+        label_datosIncorrectos.setVisible(false);
+    }//GEN-LAST:event_txt_userMouseClicked
+
+    private void txt_passMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txt_passMouseClicked
+        label_Camposvacios.setVisible(false);
+        label_datosIncorrectos.setVisible(false);
+    }//GEN-LAST:event_txt_passMouseClicked
 
     /**
      * @param args the command line arguments
