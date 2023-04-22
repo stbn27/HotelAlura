@@ -21,6 +21,8 @@
 - :five: Vista configuraciones (Solo administradores)
 	- Vista añadir nuevo usuario
 
+---
+
 1.  :arrow_forward: Vista inicio de sesion
 Este el primer apartado que se ejecuta el programa donde se inicia la sesion de **Usuario**, que a su vez este prodra tener un rol de *administrador* o bien de *empleado* , si posee el rol de administrador este podra ejecutar todas las opciones disponibles en el programa caso contrario no tendra acceso a la vista de configuraciones.
 
