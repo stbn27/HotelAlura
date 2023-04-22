@@ -50,6 +50,7 @@ En esta ventana el empleado podra ver todos los huespedes alojados en el hotel a
 	- En la vista dashboar automaticamente tomara un colo verde de background.
 Todos los cambios realizados se ejecutaran en la base de datos automaticamente.
 En la parte superior de este Jpanel se encuentra un campo para buscar cualquier huesped mediante su nombre o telefono.
+
 ![Huespedes](/img-Proyect/huesped.gif)
 
 ---
