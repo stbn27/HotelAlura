@@ -144,9 +144,9 @@ El otro apartado es agregar un nuevo usuario el cual puede ser `Administrador` o
 > :star: ¡¡Ayudame con una estrilla!!
 
 ![MadeIn](https://img.shields.io/badge/Made%20with-Java-1f425f.svg)
-![Licencia](https://img.shields.io/github/license/{stbn27}/{HotelAlura}.svg)
+![Licencia](https://img.shields.io/github/license/{@stbn27}/{HotelAlura}.svg)
 
 **Autor**
-Autor: Jose Julian Esteban |
-@Autor stbn27
-![Autor](https://img.shields.io/github/realese/{stbn27}/{HotelAlura}.svg)
+Autor: Jose Julian Esteban | 
+@Autor stbn27 | 
+![Autor](https://img.shields.io/github/realese/{@stbn27}/{HotelAlura}.svg)
