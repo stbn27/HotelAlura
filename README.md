@@ -21,8 +21,7 @@
 - :five: Vista configuraciones (Solo administradores)
 	- Vista añadir nuevo usuario
 
-## Funcionamiento del proyecto:
-
+## Funcionamiento del proyecto: [![youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)(https://www.youtube.com/watch?v=TPgWtLo7C7U)
 [![Funcionamiento del programa](https://img.youtube.com/vi/TPgWtLo7C7U/0.jpg)](https://www.youtube.com/watch?v=TPgWtLo7C7U)
 
 
