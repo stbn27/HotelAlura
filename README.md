@@ -66,6 +66,7 @@ En esta vista el empleado podra ver el listado de todas las habitaciones,  en ca
 		- Podra colocarla en disponible, para que la rente algun huesped
 Todos los cambios realizados se ejecutaran en la base de datos automaticamente.
 De la misma manera que en el punto anterior, se encuentra un campo para buscar mediante el numero de habitación o bien por el estado en que se encuentra.
+
 ![Habitaciones](/img-Proyect/habitacion.gif)
 
 ---
@@ -74,6 +75,7 @@ De la misma manera que en el punto anterior, se encuentra un campo para buscar m
 Como se menciono esta vista esta disponible unicamente para los administradores, ya que a los empleados no les aparecera esta opción.
 En esta ventana se puede modificar la informacion de la empresa, esta información se impreme en los pdf generados al realizar una reservación. De igual manera estan validados los campos, en caso de que el usuario deje campos vacios no se ejecuta la actualización de información.
 El otro apartado es agregar un nuevo usuario el cual puede ser `Administrador` o `Trabajador` ; cuando se abre esta ventana(`JFrameForm`) el usuario no puede volver a la ventana anterior hasta que la actual haya sido cerrada(`dispose()`).
+
 ![Configuración](/img-Proyect/configura.gif)
 
 ---
